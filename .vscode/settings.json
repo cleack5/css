@@ -1,6 +1,6 @@
 {
-  "editor.fontSize": 14,
   "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },

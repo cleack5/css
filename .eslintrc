@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "rules": {
+    //强制使用单引号
+    // "quotes": ["error", "single"]
+  }
+}
