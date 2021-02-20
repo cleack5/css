@@ -1,3 +1,9 @@
+/* 给页面所有元素以及伪元素设置border-box */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
 :root {
   font-size: 16px;
 }
