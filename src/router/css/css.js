@@ -16,6 +16,14 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ '../../views/css/About.vue'),
   },
+  {
+    path: '/clearFloat',
+    name: 'clearFloat',
+    component: () =>
+      import(
+        /* webpackChunkName: "clearFloat" */ '../../views/css/clearFloat.vue'
+      ),
+  },
 ];
 
 const router = createRouter({
