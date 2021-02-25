@@ -24,6 +24,13 @@ const routes = [
         /* webpackChunkName: "clearFloat" */ '../../views/css/clearFloat.vue'
       ),
   },
+
+  {
+    path: '/tab',
+    name: 'tab',
+    component: () =>
+      import(/* webpackChunkName: "clearFloat" */ '../../views/css/tab.vue'),
+  },
 ];
 
 const router = createRouter({
