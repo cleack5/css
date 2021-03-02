@@ -31,6 +31,13 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "clearFloat" */ '../../views/css/tab.vue'),
   },
+
+  {
+    path: '/grid',
+    name: 'grid',
+    component: () =>
+      import(/* webpackChunkName: "clearFloat" */ '../../views/css/grid.vue'),
+  },
 ];
 
 const router = createRouter({
